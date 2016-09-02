@@ -1,0 +1,34 @@
+<html>
+<head>
+  <%include partials/Head.ejs%>
+</head>
+<body>
+  <%include partials/Navigation.ejs%>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="text-primary text-center">
+          <h1 class="text-center margin-base-vertical">Welcome to Select page</h1>
+        </p>
+        <p class="text-primary text-center">
+          <medium>Hello,<%= message%> Depending on our taste of interest we will take you to the corresponding city</medium>
+        </p>
+        <form class="form-horizontal" method="post" action="/place">
+      <p class="text-info text-center">
+      </p>
+      <div class="form-group">
+  <label for="sel1">Select list:</label>
+  <select class="form-control" name="interest" id="sel1">
+    <option>history</option>
+    <option>finance</option>
+    <option>sports</option>
+    <option>fashion</option>
+  </select>
+</div>
+      <button type="submit" class="btn btn-primary btn-md">Submit</button>
+      </div>
+    </div>
+  </div>
+  <%include partials/Footer.ejs%>
+</body>
+</html>

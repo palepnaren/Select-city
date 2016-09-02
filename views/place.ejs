@@ -1,0 +1,22 @@
+<html>
+<head>
+  <%include partials/Head.ejs%>
+</head>
+<body>
+  <%include partials/Navigation.ejs%>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="text-primary text-center">
+          <large> <%= person%>, welcome to the city <%= cityName%></large>
+        </p>
+        <p class="text-info text-center">
+        <small><%= cityName%> : <%= tagline%></small></p>
+        <p class="text-center">
+        <img src="/images/<%= cityName%>.jpg" style="width:450px;height:350px"></p>
+      </div>
+    </div>
+  </div>
+  <%include partials/Footer.ejs%>
+</body>
+</html>

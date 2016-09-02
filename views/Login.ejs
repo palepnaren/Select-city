@@ -1,0 +1,29 @@
+<html>
+<head>
+  <%include partials/Head.ejs%>
+</head>
+<body>
+  <%include partials/Navigation.ejs%>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+
+          <form class="form-horizontal" method="get" action="/interest" style="center">
+        <p class="text-primary text-center">
+          <lable class="lable lable-primary">Sign In</lable>
+        </p>
+        <p class="text-info text-center">
+          Please log in to access our select-city page.
+        </p>
+        <input  required class="form-control" type="text" name="nm" placeholder="username">
+        <button type="submit" class="btn btn-primary btn-md">Log-in</button>
+      </form>
+    </center>
+      </div>
+      </div>
+    </div>
+  </div>
+  <%include partials/Footer.ejs%>
+</body>
+</html>
