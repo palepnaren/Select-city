@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/palepnaren/node-select-city.git"
+    "url": "git+https://github.com/palepnaren/Select-city.git"
   },
   "keywords": [
     "city",
@@ -17,9 +17,9 @@
   "author": "Naren",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/palepnaren/node-select-city/issues"
+    "url": "https://github.com/palepnaren/Select-city/issues"
   },
-  "homepage": "https://github.com/palepnaren/node-select-city#readme",
+  "homepage": "https://github.com/palepnaren/Select-city#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.5.1",
